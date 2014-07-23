@@ -31,17 +31,26 @@ node -v
 npm -v
 ```
 
-## Install node-gyp
+### Install node-gyp
 ```terminal
-npm install -g node-gyp
+sudo npm install -g node-gyp
 ```
 
-## Install johnny-five
+### Install johnny-five
 ```terminal
-npm install johnny-five
+sudo npm install johnny-five
 ```
 
-## Install raspi-io
+### Install raspi-io
 ```terminal
-npm install raspi-io
+sudo npm install raspi-io
 ```
+
+### Install serialport
+```terminal
+sudo npm install serialport
+```
+
+
+## GPIO Pinout reference
+![GPIO pinout](https://learn.adafruit.com/system/assets/assets/000/003/059/medium800/learn_raspberry_pi_gpio-srm.png?1396790782)
