@@ -1,12 +1,12 @@
 # Setup
 
-## Install Raspian or another OS on your Raspberry Pi
+## Install Raspian OS on your Raspberry Pi
 
 ```terminal
 dd bs=4M if=2014-06-20-wheezy-raspbian.img of=/dev/sdx
 ```
 
-## Install node.js
+## Install node.js and related packages
 
 ### Download latest package
 ```terminal
@@ -54,3 +54,4 @@ sudo npm install serialport
 
 ## GPIO Pinout reference
 ![GPIO pinout](https://learn.adafruit.com/system/assets/assets/000/003/059/medium800/learn_raspberry_pi_gpio-srm.png?1396790782)
+![GPIO pin reference](http://wiringpi.com/wp-content/uploads/2013/03/gpio1.png)
