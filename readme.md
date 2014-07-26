@@ -59,9 +59,13 @@ sudo npm install serialport
 
 
 
+
 ### Pracices
 
 ## Simple LED
+![Simple LED diagram](http://node-ardx.org/images/circ/CIRC01-sheet-small.png)
+
+
 
 
 ## RGB LED
