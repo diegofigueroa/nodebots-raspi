@@ -55,3 +55,17 @@ sudo npm install serialport
 ## GPIO Pinout reference
 ![GPIO pinout](https://learn.adafruit.com/system/assets/assets/000/003/059/medium800/learn_raspberry_pi_gpio-srm.png?1396790782)
 ![GPIO pin reference](http://wiringpi.com/wp-content/uploads/2013/03/gpio1.png)
+
+
+
+
+### Pracices
+
+## Simple LED
+
+
+## RGB LED
+
+# Circuit Diagram
+
+![RGB circuit diagram](http://node-ardx.org/images/circ/CIRC12-sheet-small.png)
