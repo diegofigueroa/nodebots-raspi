@@ -1,7 +1,11 @@
 var raspi = require("raspi-io");
 var five  = require("johnny-five");
 
-five.Board().on("ready", function() {
+var board = five.Board({
+  io: raspi()
+});
+
+board.on("ready", function() {
   var led = new five.Led.RGB({
     pins: {
       red: 7,
